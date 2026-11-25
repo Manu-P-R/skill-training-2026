@@ -169,7 +169,109 @@ print("****")'''
 #htr
 '''a="Happy birthday"
 print(a[-4:-7:-1])'''
-
 #function is a block of code 
-#function :
+#function:
+#with argumentwith return
 
+'''def convert(s):
+    out = ""
+    for i in s:
+        if "a" <= i <= "z":
+            out += chr(ord(i) - 32)
+        else:
+            out += i
+    return out
+
+print(convert(input("Enter a string: ")))'''
+#for printing the output 
+'''def convert(s):
+    out = ""
+    for i in s:
+        if "a" <= i <= "z":
+            out += chr(ord(i) - 32)
+        else:
+            out += i
+    print(out)
+    return 10
+
+
+(convert(input("Enter a string: ")))'''
+
+'''def convert():
+    s = input("Enter text: ")
+    out = ""
+
+    for i in s:
+        if "a" <= i <= "z":
+            out += chr(ord(i) - 32)
+        else:
+            out += i
+
+    return out
+
+print(convert())'''
+
+'''class college:
+    cname="GCEM"
+    cloc="hoodi"
+s1=college()
+print(college.cname)
+college.cname="GCEM"
+print(s1.cname)
+print(college.cname)
+
+print("changing college location")
+s1.cloc="bangalore"
+print(s1.cloc)
+print(college.cloc)'''
+
+#constructor
+#for the repated menthod we use constructors 
+'''class college:
+    def __init__(self,name,mobile,usn):
+        self.name=name
+        self.mobile=mobile
+        self.usn=usn
+    def display(self):
+        print(self.name)
+        print(self.mobile)
+        print(self.usn)
+
+
+s1=college("manu",1234567890,"1GD25CS078")
+s2=college("suprith",9876543210,"1GD25CS149")
+
+s1.display()
+s2.display()'''
+
+'''class college:
+    def __init__(self,name,mobile,usn):
+        self.name=name
+        self.mobile=mobile
+        self.usn=usn
+    def display(self):
+        print(self.name)
+        print(self.mobile)
+        print(self.usn)
+    def change_name(self,new_name):
+        self.name=new_name
+    def change_mobile(self,new_mobile):
+        self.mobile=new_mobile
+
+
+s1=college("manu",1234567890,"1GD25CS078")
+s2=college("suprith",9876543210,"1GD25CS149")
+s1.change_name("MRP")
+s1.change_mobile(8861399851)
+
+
+s1.display()
+s2.display()
+s1.change_name("MRP")
+s1.display()
+s1.change_mobile(8861399851)
+s1.display()'''
+
+#generative AI:
+#Generative AI is a kind of artificial intelligence that creates new content—such as
+#  text, images, music, video, or computer code
