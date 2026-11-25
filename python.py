@@ -161,7 +161,15 @@ print(rev)'''
     for j in range (1,6):
         print("*",end="")
         print()'''
-print("*")
+'''print("*")
 print("**")
 print("***")
-print("****")
+print("****")'''
+
+#htr
+'''a="Happy birthday"
+print(a[-4:-7:-1])'''
+
+#function is a block of code 
+#function :
+
